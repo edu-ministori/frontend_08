@@ -89,19 +89,11 @@ https://www.w3schools.com/html/html_filepaths.asp
 - 출발지 위치를 기준으로 표시
 - Ex) 상세경로 => /blog/image.jpg || image.jpg
 
-### HTML List
-https://www.w3schools.com/html/html_lists.asp
 
-> 중첩목록(Nested List)
+###HTML TABLE 
+HTTPS://WWWW.W3SCHOOLS.COM/HTML/HTML_LISTS.ASP
 
-### HTML Table
-https://www.w3schools.com/html/html_tables.asp
-
-table generator : https://www.tablesgenerator.com/html_tables
-
-
-
-
+####
 
 
 
