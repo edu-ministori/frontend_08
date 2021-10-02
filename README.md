@@ -331,3 +331,26 @@ div.name1 : div Element가 name1 클래스 이름을 가지고 있는 경우
 * 자식 요소 선택
 .name1>.name2 : 클래스 이름이 name1인 요소의 자식요소 중 클래스 이름이 .name2인 요소를 선택
 ```
+
+### CSS Position
+
+> 박스를 단독으로 좌표값을 이용해서 위치를 설정
+>
+> - static
+> - relative
+> - absolute
+> - fixed
+
+> relative
+>
+> - 원래 위치의 자리를 그대로 유지하면서 원래 위치를 기준으로 좌표 이동
+
+> absolute
+>
+> - 원래 위치의 자리를 유지하지 않고 부모를 기준으로 좌표 이동
+> - 기본 : body를 기준
+> - 부모요소에 position 속성을 적용한 경우 : 인접한 부모요소를 기준
+
+> fixed
+>
+> - 위치 기준 : 브라우저

@@ -330,6 +330,16 @@ https://www.w3schools.com/js/js_classes.asp
 >
 > load
 
+### JS Event Handler/Listener
+
+```
+elementNode.addEventListener(이벤트, 함수);
+```
+
+> 함수를 따로 정의해서 매개변수로 넣어주는 경우 함수 이름만 넣어줌(괄호 생략)
+>
+> 함수를 따로 정의하지 않고 익명함수로 직접 넣어주는 경우도 있음
+
 ### JS Form
 
 https://www.w3schools.com/html/html_form_input_types.asp
@@ -422,4 +432,26 @@ document.querySelector('tag');
 document.querySelector('.class');
 
 document.querySelectorAll('.class');
+```
+
+### Create / Read / Update / Delete
+
+> Create
+
+```
+// HTML 요소 생성
+document.createElement()
+
+// Text 생성
+document.createTextNode()
+
+// 부모요소에 자식요소를 추가
+parentNode.appendChild(childNode);
+
+// 해당 요소에 클래스 이름 추가
+elementNode.classList.add()
+
+// input type text 요소의 값을 저장하고 있는 property
+inputNode.value
+
 ```
